@@ -10,7 +10,7 @@ int main() {
         temp1 = number / temp2;
         number = number % temp2;
         if (temp1 > 0) {
-            printf("%d\t", temp1);
+            printf("[%d]\t", temp1);
         }
         temp2 /= 10;
     }
